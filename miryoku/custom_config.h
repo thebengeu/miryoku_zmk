@@ -1,6 +1,12 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#define MIRYOKU_ALPHAS_QWERTY
+#define MIRYOKU_CLIPBOARD_WIN
+#define MIRYOKU_LAYERS_FLIP
+#define MIRYOKU_NAV_INVERTEDT
+#define MIRYOKU_TAP_QWERTY
+
 #define MIRYOKU_LAYER_NUM \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LBKT,          &kp N1,            &kp N2,            &kp N3,            &kp RBKT,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp EQUAL,         &kp N4,            &kp N5,            &kp N6,            &kp SEMI,          \
